@@ -1,2 +1,2 @@
 # MyExercise
-C Programming Practice
+This is a personal repository used as a notebook.
