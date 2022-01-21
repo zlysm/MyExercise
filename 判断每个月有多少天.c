@@ -10,8 +10,7 @@ int main(void) {
 	printf("Please enter the year and month (separated by space): \n");
 	scanf_s("%d %d", &year, &month);
 
-	//表驱动法
-	printf("总共%d天\n", days_of_month(month, year));
+	printf("总共%d天!\n", days_of_month(month, year));
 	return 0;
 }
 
