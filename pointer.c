@@ -2,20 +2,20 @@
 
 const int MAX = 3;
 
-int main()
+int main(void)
 {
     int  var[] = { 10, 100, 200 };
     int  i, * ptr;
 
-    /* Ö¸ÕëÖĞµÄÊı×éµØÖ· */
+    /* æŒ‡é’ˆä¸­çš„æ•°ç»„åœ°å€ */
     ptr = var;
     for (i = 0; i < MAX; i++)
     {
 
-        printf("´æ´¢µØÖ·£ºvar[%d] = %p\n", i, ptr);
-        printf("´æ´¢Öµ£ºvar[%d] = %d\n", i, *ptr);
+        printf("å­˜å‚¨åœ°å€ï¼švar[%d] = %p\n", i, ptr);
+        printf("å­˜å‚¨å€¼ï¼švar[%d] = %d\n", i, *ptr);
 
-        /* Ö¸ÏòÏÂÒ»¸öÎ»ÖÃ */
+        /* æŒ‡å‘ä¸‹ä¸€ä¸ªä½ç½® */
         ptr++;
     }
     return 0;
